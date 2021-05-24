@@ -24,9 +24,20 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/js/fancybox/jquery.fancybox.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [              
+              "node_modules/jquery/dist/jquery.slim.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/isotope.pkgd.min.js",
+              "src/assets/js/cells-by-row.js",
+              "src/assets/js/fancybox/jquery.fancybox.pack.js",
+              "src/assets/js/main.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
