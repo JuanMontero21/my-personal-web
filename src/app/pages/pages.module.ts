@@ -6,12 +6,16 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 
 import { PagesComponent } from './pages.component';
+import { HomeComponent } from './home/home.component';
+import { MyskillsComponent } from './myskills/myskills.component';
 
 
 
 @NgModule({
   declarations: [
-    PagesComponent
+    PagesComponent,
+    HomeComponent,
+    MyskillsComponent
   ],
   imports: [
     CommonModule,
