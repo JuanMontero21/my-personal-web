@@ -1,4 +1,5 @@
 # MyPersonalWeb
+This website talks about my professional career as a frontend developer.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
