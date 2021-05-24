@@ -1,0 +1,35 @@
+/*all.css*/
+/* .menu_trigger{
+	width: 31px;
+	height: 31px;
+	right:0;
+	background: url(../../../assets/images/btn_mobile_menu.png) no-repeat;
+	text-indent: -9999em;
+	display: none;
+	top: 5px;
+	position: absolute;
+}
+
+@media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
+	.menu_trigger{
+		background-image: url(../../../assets/images/btn_mobile_menu@x2.png);
+		background-size:31px 30px;
+	}
+} */
+
+/*screen.css*/
+/* @media only screen and (max-width : 768px) {
+	.menu_trigger {
+		display: block;
+		top: 28px;
+	}
+    #wrapper.inner .menu_trigger,#wrapper.portfolio .menu_trigger{top: 6px;}
+}
+@media only screen and (max-width : 640px) {
+	.menu_trigger {
+		top: 25px;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.menu_trigger{top: 20px;}
+} */

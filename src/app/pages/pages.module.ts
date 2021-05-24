@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
+//My Modules 
+import { SharedModule } from '../shared/shared.module';
+
 import { PagesComponent } from './pages.component';
 
 
@@ -12,7 +15,8 @@ import { PagesComponent } from './pages.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    SharedModule
   ]
 })
 export class PagesModule { }

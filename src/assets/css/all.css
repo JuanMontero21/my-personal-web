@@ -314,7 +314,7 @@ h2.slogan{
 	line-height: 43px;
 	background: #46484c;
 	border-radius: 5px;
-	behavior: url(css/PIE.htc);
+	behavior: url(/assets/css/PIE.htc);
 	margin: 0 0 27px;
 }
 .progress li span{
@@ -344,7 +344,7 @@ h2.slogan{
 	float:left;
 	margin: 0 0 0 25px;
 	border-radius: 50%;
-	behavior: url(css/PIE.htc);
+	behavior: url(/assets/css/PIE.htc);
 	text-indent: -9999px;
 	background: #28292b;
 	width: 121px;
@@ -460,7 +460,7 @@ transition: all 0.5s ease-in-out;
     background: #6abb84;
 	opacity: 0.9;
 	border-radius: 50%;
-	behavior: url(css/PIE.htc);
+	behavior: url(/assets/css/PIE.htc);
 }
 .item .hover.active{display: block;}
 .item .item-content {
@@ -546,7 +546,7 @@ transition: all 0.5s ease-in-out;
 	float:left;
 	margin: 0 0 0 10px;
 	border-radius: 50%;
-	behavior: url(css/PIE.htc);
+	behavior: url(/assets/css/PIE.htc);
 	text-indent: -9999px;
 	background: #c6cfc9;
 	width: 123px;
