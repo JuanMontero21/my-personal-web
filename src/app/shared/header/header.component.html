@@ -2,10 +2,10 @@
     <a class="menu_trigger" href="#">menu</a>
         <nav id="nav">
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="myskills.html">My skills</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+                <li><a routerLink="/my-skills" routerLinkActive="active" >My skills</a></li>
+                <li><a routerLink="/portfolio" routerLinkActive="active" >Portfolio</a></li>
+                <li><a routerLink="/contact" routerLinkActive="active" >Contact</a></li>
             </ul>
         </nav>
     <h1 class="logo">Juan Montero</h1>

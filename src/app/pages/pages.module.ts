@@ -8,6 +8,8 @@ import { SharedModule } from '../shared/shared.module';
 import { PagesComponent } from './pages.component';
 import { HomeComponent } from './home/home.component';
 import { MyskillsComponent } from './myskills/myskills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -15,7 +17,9 @@ import { MyskillsComponent } from './myskills/myskills.component';
   declarations: [
     PagesComponent,
     HomeComponent,
-    MyskillsComponent
+    MyskillsComponent,
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
