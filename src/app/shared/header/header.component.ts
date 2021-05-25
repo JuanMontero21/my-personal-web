@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public showNavFlag = true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  showNav() {
+    setTimeout(()=>{
+      this.showNavFlag = !this.showNavFlag;
+    }, 400)
   }
 
 }

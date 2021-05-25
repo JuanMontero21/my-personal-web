@@ -1,5 +1,5 @@
 <header id="header">
-    <a class="menu_trigger" href="#">menu</a>
+    <a class="menu_trigger" (click)="showNav()" href="#">menu</a>
         <nav id="nav">
             <ul>
                 <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
@@ -8,6 +8,26 @@
                 <li><a routerLink="/contact" routerLinkActive="active" >Contact</a></li>
             </ul>
         </nav>
-    <h1 class="logo">Juan Montero</h1>
-    <h2 class="slogan">Professional Frontend Web Developer</h2>
+    <div class="row">
+        <ul class="language-responsive" [hidden]="showNavFlag">
+            <li>
+                <a href="#">ESPAÑOL</a>
+            </li>
+            <li>
+                <a href="#">INGLÉS</a>
+            </li>
+        </ul>
+        <ul class="language">
+            <li>
+                <a href="#">ESPAÑOL</a>
+            </li>
+            <li>
+                <a href="#">INGLÉS</a>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <h1 class="logo">Juan Montero</h1>
+        <h2 class="slogan">Professional Frontend Web Developer</h2>
+    </div>
 </header>
