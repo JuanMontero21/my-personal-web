@@ -22,9 +22,8 @@
 
 	.language-responsive {
 		position: relative;
-		bottom: -8px;
-		/* right: 45px; */
-		left: 261px;
+		bottom: -6px;
+		left: 310px;
 	}
 
 	.language-responsive li {
@@ -48,4 +47,50 @@
 		color: #fff;
 		text-decoration:none;
 	} */
+}
+
+@media only screen and (max-width : 736px) {
+
+	.row {
+		float: none;
+	}
+
+	.language-responsive {
+		position: relative;
+		bottom: -6px;
+		left: 294px;
+	}
+
+	.language-responsive li {
+		display:inline-block;
+		padding: 0 15px;
+		float:none;
+	}
+
+	.language {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+
+	.row {
+		float: none;
+	}
+
+	.language-responsive {
+		position: relative;
+		bottom: 3px;
+		left: 133px;
+	}
+
+	.language-responsive li {
+		display:inline-block;
+		padding: 0 15px;
+		float:none;
+	}
+
+	.language {
+		display: none;
+	}
 }

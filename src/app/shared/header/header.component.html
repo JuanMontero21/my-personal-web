@@ -11,23 +11,33 @@
     <div class="row">
         <ul class="language-responsive" [hidden]="showNavFlag">
             <li>
-                <a href="#">ESPAÑOL</a>
+                <button (click)="useLanguage('es')">
+                    <img class="flag-img" src="./assets/images/spain_flag_icon_512px.png" alt="ESP flag" width=30/>
+                </button>
             </li>
             <li>
-                <a href="#">INGLÉS</a>
+                <button (click)="useLanguage('en')">
+                    <img class="flag-img" src="./assets/images/kingdom_national_united_world_icon_512px.png" alt="UK flag" width=30/>
+                </button>
             </li>
         </ul>
         <ul class="language">
             <li>
-                <a href="#">ESPAÑOL</a>
+                <button (click)="useLanguage('es')">
+                    <img class="flag-img" src="./assets/images/spain_flag_icon_512px.png" alt="ESP flag" width=30/>
+                </button>
+                <!-- <a href="#">ESPAÑOL</a> -->
             </li>
             <li>
-                <a href="#">INGLÉS</a>
+                <button (click)="useLanguage('en')">
+                    <img class="flag-img" src="./assets/images/kingdom_national_united_world_icon_512px.png" alt="UK flag" width=30/>
+                </button>
+                <!-- <a href="#">INGLÉS</a> -->
             </li>
         </ul>
     </div>
     <div class="row">
         <h1 class="logo">Juan Montero</h1>
-        <h2 class="slogan">Professional Frontend Web Developer</h2>
+        <h2 class="slogan"> {{ 'HOME.TITLE' | translate }} </h2>
     </div>
 </header>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Globals } from 'src/app/config/globals';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +11,9 @@ export class HeaderComponent implements OnInit {
 
   public showNavFlag = true;
 
-  constructor() { }
+  constructor(
+              public globals: Globals,
+              private readonly translate: TranslateService) { }
 
   ngOnInit(): void {
   }
@@ -19,5 +23,12 @@ export class HeaderComponent implements OnInit {
       this.showNavFlag = !this.showNavFlag;
     }, 400)
   }
+
+  public useLanguage(language: string) {
+    if (!this.globals.langChangedByUser) {
+        this.globals.langChangedByUser = true;
+    }
+    this.translate.use(language);
+}
 
 }
